@@ -30,7 +30,7 @@ function init(){
 
   //Load model
   let loader = new THREE.GLTFLoader();
-  loader.load('./assets/3D/Bandana.gltf', function(gltf) {
+  loader.load('./assets/ring/aj.gltf', function(gltf) {
     scene.add(gltf.scene);
     renderer.render(scene, camera);
   });
